@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nyoflix/static/css/main.963f32b4.chunk.css",
+    "main.css": "/nyoflix/static/css/main.09165760.chunk.css",
     "main.js": "/nyoflix/static/js/main.2f10fa32.chunk.js",
     "main.js.map": "/nyoflix/static/js/main.2f10fa32.chunk.js.map",
     "runtime-main.js": "/nyoflix/static/js/runtime-main.4fae42d9.js",
@@ -10,14 +10,14 @@
     "static/js/2.29da6b8f.chunk.js.map": "/nyoflix/static/js/2.29da6b8f.chunk.js.map",
     "index.html": "/nyoflix/index.html",
     "static/css/2.b9b0b070.chunk.css.map": "/nyoflix/static/css/2.b9b0b070.chunk.css.map",
-    "static/css/main.963f32b4.chunk.css.map": "/nyoflix/static/css/main.963f32b4.chunk.css.map",
+    "static/css/main.09165760.chunk.css.map": "/nyoflix/static/css/main.09165760.chunk.css.map",
     "static/js/2.29da6b8f.chunk.js.LICENSE.txt": "/nyoflix/static/js/2.29da6b8f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4fae42d9.js",
     "static/css/2.b9b0b070.chunk.css",
     "static/js/2.29da6b8f.chunk.js",
-    "static/css/main.963f32b4.chunk.css",
+    "static/css/main.09165760.chunk.css",
     "static/js/main.2f10fa32.chunk.js"
   ]
 }
