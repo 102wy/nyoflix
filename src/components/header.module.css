@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+.pagew {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.navi {
+  width: 70%;
+}
+.navi > ul {
+  display: flex;
+  flex-direction: row;
+}
+.navi > ul > li {
+  width: 20%;
+}
+.navi > ul > li > a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+.navi > ul > li > a:hover {
+  font-weight: bold;
+}

@@ -1,0 +1,49 @@
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5em;
+}
+.leftcont {
+  height: 100%;
+}
+.rightcont {
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+}
+.title {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "S-CoreDream-5Medium";
+}
+.summary {
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: "S-CoreDream-1Thin";
+  cursor: default;
+}
+.rating {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "S-CoreDream-4Regular";
+  cursor: default;
+}
+.running {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "S-CoreDream-4Regular";
+  cursor: default;
+}
+.loading {
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  cursor: default;
+}

@@ -1,0 +1,40 @@
+.loading {
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  cursor: default;
+}
+.pagew {
+  width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 5rem 0;
+}
+.title {
+  font-family: "S-CoreDream-4Regular";
+  font-size: 34px;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+}
+.slide {
+}
+.listCont {
+  margin-right: 10px;
+}
+.prevButton {
+  cursor: pointer;
+}
+.button {
+  width: 3rem;
+  height: 3rem;
+}
