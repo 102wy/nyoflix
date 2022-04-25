@@ -1,23 +1,13 @@
 {
   "files": {
-    "main.css": "/nyoflix/static/css/main.09165760.chunk.css",
-    "main.js": "/nyoflix/static/js/main.e420f10c.chunk.js",
-    "main.js.map": "/nyoflix/static/js/main.e420f10c.chunk.js.map",
-    "runtime-main.js": "/nyoflix/static/js/runtime-main.4fae42d9.js",
-    "runtime-main.js.map": "/nyoflix/static/js/runtime-main.4fae42d9.js.map",
-    "static/css/2.b9b0b070.chunk.css": "/nyoflix/static/css/2.b9b0b070.chunk.css",
-    "static/js/2.29da6b8f.chunk.js": "/nyoflix/static/js/2.29da6b8f.chunk.js",
-    "static/js/2.29da6b8f.chunk.js.map": "/nyoflix/static/js/2.29da6b8f.chunk.js.map",
+    "main.css": "/nyoflix/static/css/main.d2df2524.css",
+    "main.js": "/nyoflix/static/js/main.af2ec439.js",
     "index.html": "/nyoflix/index.html",
-    "static/css/2.b9b0b070.chunk.css.map": "/nyoflix/static/css/2.b9b0b070.chunk.css.map",
-    "static/css/main.09165760.chunk.css.map": "/nyoflix/static/css/main.09165760.chunk.css.map",
-    "static/js/2.29da6b8f.chunk.js.LICENSE.txt": "/nyoflix/static/js/2.29da6b8f.chunk.js.LICENSE.txt"
+    "main.d2df2524.css.map": "/nyoflix/static/css/main.d2df2524.css.map",
+    "main.af2ec439.js.map": "/nyoflix/static/js/main.af2ec439.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.4fae42d9.js",
-    "static/css/2.b9b0b070.chunk.css",
-    "static/js/2.29da6b8f.chunk.js",
-    "static/css/main.09165760.chunk.css",
-    "static/js/main.e420f10c.chunk.js"
+    "static/css/main.d2df2524.css",
+    "static/js/main.af2ec439.js"
   ]
 }
