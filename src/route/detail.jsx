@@ -25,7 +25,6 @@ function Detail() {
             {loading ? (<h1 className={styles.loading}>Loading...</h1>
             ) : (
                 <>
-                    <Header />
                     <div className={styles.container}>
                         <div className={styles.leftcont}>
                             <img src={details.large_cover_image} alt="이미지" />

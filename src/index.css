@@ -33,6 +33,20 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "SBAggroB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GangwonEduPowerExtraBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   list-style: none;
   box-sizing: border-box;
@@ -58,7 +72,6 @@ code {
 .swiper-button-next {
   color: #fff !important;
 }
-
 h1,
 h2,
 h3 {

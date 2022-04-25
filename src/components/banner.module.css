@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+.img {
+  z-index: -1;
+}
+.title {
+  font-size: 4rem;
+  color: #ffd200;
+  z-index: 99;
+  position: absolute;
+  left: 5rem;
+  top: 0rem;
+  font-family: "GangwonEduPowerExtraBoldA";
+}
+.genre {
+  position: absolute;
+  left: 5rem;
+  color: #fff;
+  font-family: "S-CoreDream-3Light";
+  top: 13rem;
+  font-size: 18px;
+}
+.summary {
+  position: absolute;
+  top: 16rem;
+  left: 5rem;
+  color: #fff;
+  font-family: "S-CoreDream-3Light";
+}

@@ -1,21 +1,22 @@
 import React from 'react';
 import styles from './header.module.css';
 import { Link } from 'react-router-dom';
+import NavList from '../NavList';
 
 function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.pagew}>
                 <Link to="/">
-                    <img src="/images/logo.png" alt="nyoflix" />
+                    <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="nyoflix" />
                 </Link>
                 <nav className={styles.navi}>
                     <ul>
-                        <li><a href="#">Drama</a></li>
-                        <li><a href="#">Comedy</a></li>
-                        <li><a href="#">Horror</a></li>
-                        <li><a href="#">Documentary</a></li>
-                        <li><a href="#">Action</a></li>
+                        {NavList.map(list => {
+                            return (
+                                <li><Link to={list.path} className={styles.link}>{list.title}</Link></li>
+                            );
+                        })}
                     </ul>
                 </nav>
             </div>

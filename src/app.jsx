@@ -7,18 +7,20 @@ import {
 } from "react-router-dom";
 import Home from './route/home';
 import Detail from './route/detail';
+import Header from './components/header';
+import Group from './route/group';
 
 
 function App() {
 
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-      </Routes>
-      <Routes>
         <Route path="/movie/:id" element={<Detail />}></Route>
+        <Route path="/:genre" element={<Group />}></Route>
       </Routes>
     </Router>
   );
